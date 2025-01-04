@@ -26,4 +26,66 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.your-projects {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.announcement-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.Announcements {
+    background-color: white;
+}
+
+.Trending {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.card-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    border-left: 8px solid rgb(213, 156, 50);
+    padding: 10px;
+}
+
+.buttom-header {
+    display: flex;
+}
+
+button {
+    background-color: rgb(75, 173, 248);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    height: 25px;
+    width: 60px;
+}
+
+.profiles {
+    background-color: white;
 }
