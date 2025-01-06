@@ -21,6 +21,7 @@ body {
     display: grid;
     gap: 10px;
     grid-template-rows: 30px 30px repeat(6, 20px) 30px repeat(3, 20px);
+    font-weight: bolder;
 }
 
 .main-content-container {
@@ -95,4 +96,11 @@ button {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
+}
+
+.searchbar {
+    background-color: rgb(210, 213, 214);
+    border-radius: 15px;
+    width: 500px;
+    height: 25px;
 }
