@@ -11,8 +11,13 @@ body {
     grid-row-end: 2;
 }
 
+.top-header {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr 2fr 3fr;
+}
+
 .sidebar-container {
-    background-color: rgb(75, 173, 248);
+    background-color: #0096FF;
     color: white;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -22,6 +27,17 @@ body {
     gap: 10px;
     grid-template-rows: 30px 30px repeat(6, 20px) 30px repeat(3, 20px);
     font-weight: bolder;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.icon {
+    margin-left: 10px;
 }
 
 .main-content-container {
@@ -93,7 +109,7 @@ body {
 }
 
 button {
-    background-color: rgb(75, 173, 248);
+    background-color: #0096FF;
     color: white;
     border-radius: 15px;
     border: 0px;
