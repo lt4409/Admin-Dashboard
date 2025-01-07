@@ -126,6 +126,7 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: rgb(174, 173, 173) 1px 5px;
 }
 
 .Trending {
@@ -189,6 +190,7 @@ button {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: rgb(174, 173, 173) 1px 5px;
 }
 
 .searchbar {
