@@ -71,7 +71,7 @@ body {
 }
 
 .sidebar-container {
-    background-color: #0096FF;
+    background-color: rgb(69, 144, 206);
     color: white;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -95,7 +95,7 @@ body {
 }
 
 .main-content-container {
-    background-color: rgb(210, 213, 214);
+    background-color: rgb(227, 232, 239);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -156,7 +156,7 @@ body {
 .card {
     background-color: white;
     border-radius: 5px;
-    border-left: 8px solid rgb(213, 156, 50);
+    border-left: 8px solid rgb(231, 182, 74);
     padding: 10px;
     box-shadow: rgb(174, 173, 173) 1px 5px;
     display: flex;
@@ -178,7 +178,7 @@ body {
 }
 
 button {
-    background-color: #0096FF;
+    background-color: rgb(69, 144, 206);
     color: white;
     border-radius: 15px;
     border: 0px;
@@ -194,7 +194,7 @@ button {
 }
 
 .searchbar {
-    background-color: rgb(210, 213, 214);
+    background-color: rgb(227, 232, 239);
     border-radius: 15px;
     width: 500px;
     height: 25px;
