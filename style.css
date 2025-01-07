@@ -9,11 +9,35 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    box-shadow: rgb(174, 173, 173) 0px 10px;;
 }
 
 .top-header {
-    display: grid;
-    grid-template-columns: 1fr 500px 1fr 2fr 3fr;
+    display: flex;
+    gap: 100px;
+}
+
+.profile-info-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-top-header {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-name {
+    font-weight: bolder;
+}
+
+.fa-magnifying-glass {
+    margin-left: 40px;
 }
 
 .sidebar-container {
@@ -128,4 +152,15 @@ button {
     border-radius: 15px;
     width: 500px;
     height: 25px;
+}
+
+.profile-morgan-top-header {
+    border-radius: 200px;
+    height: 40px;
+    width: 40px;
+}
+
+.profile-name {
+    font-size: 16px;
+    align-self: center;
 }
