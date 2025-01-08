@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr auto;
     grid-template-rows: auto auto;
 }
 
@@ -103,7 +103,8 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100%;
 }
 
 .your-projects {
@@ -112,6 +113,9 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .announcement-container {
@@ -120,6 +124,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     margin-right: 20px;
+    align-self: start;
 }
 
 .Announcements {
@@ -127,6 +132,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: rgb(174, 173, 173) 1px 5px;
+    margin-top: 20px;
 }
 
 .Trending {
@@ -136,6 +142,7 @@ body {
     grid-row-end: 3;
     margin-right: 20px;
     padding-left: 10px;
+    align-self: end;
 }
 
 .trending-part {
@@ -146,11 +153,16 @@ body {
     margin-bottom: 15px;
 }
 
+.h1-trending {
+    margin-bottom: 20px;
+}
+
 .card-container {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    height: 100%;
 }
 
 .card {
@@ -215,4 +227,10 @@ p {
     font-weight: light;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
