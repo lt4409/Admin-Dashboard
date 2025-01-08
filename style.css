@@ -254,10 +254,13 @@ h1 {
 
 .icon-text-container:hover {
     background-color: rgb(120, 167, 206);
-    color: black;
+    font-size: 22px;
 }
 
 .card:hover {
     background-color:  rgb(238, 212, 157);
 }
 
+.card-icon:hover {
+    font-size: 20px;
+}
