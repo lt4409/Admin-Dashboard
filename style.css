@@ -1,7 +1,8 @@
 body {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto;
+    height: 100vh;
 }
 
 .header-container {
@@ -16,6 +17,8 @@ body {
 
 .top-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 100px;
 }
 
@@ -34,6 +37,12 @@ body {
     align-items: center;
 }
 
+.right-header {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
 .profile-name {
     font-weight: bolder;
 }
@@ -44,6 +53,8 @@ body {
 
 .buttom-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 350px;
     margin-top: 25px;
 }
@@ -78,16 +89,18 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-rows: 30px 30px repeat(6, 20px) 30px repeat(3, 20px);
     font-weight: bolder;
+    padding-top: 10px;
 }
 
 .icon-text-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 5px 10px;
+    font-size: 18px;
 }
 
 .icon {
@@ -185,7 +198,7 @@ body {
 .button-container {
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -234,3 +247,17 @@ h1 {
     padding: 0;
     border: 0;
 }
+
+#Dashboard {
+    font-size: 25px;
+}
+
+.icon-text-container:hover {
+    background-color: rgb(120, 167, 206);
+    color: black;
+}
+
+.card:hover {
+    background-color:  rgb(238, 212, 157);
+}
+
